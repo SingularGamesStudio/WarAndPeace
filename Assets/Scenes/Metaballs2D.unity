@@ -291,6 +291,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257555133}
   m_CullTransparentMesh: 0
+--- !u!1 &372300862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372300863}
+  m_Layer: 0
+  m_Name: GameObject (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372300863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372300862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.87, y: 1.25, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461049900
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +531,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &819507409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 819507410}
+  m_Layer: 0
+  m_Name: GameObject (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &819507410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819507409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.35, y: 1.85, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &875597230
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875597230}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.25, y: -4.65, z: -13.985662}
+  m_LocalPosition: {x: -6.26, y: 3.18, z: -10.071853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -596,6 +656,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 790349845}
   m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982215045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982215046}
+  m_Layer: 0
+  m_Name: GameObject (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &982215046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982215045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.39, y: 3.84, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1023461858
 LightingSettings:
@@ -1082,6 +1172,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.460435, y: 24.539648}
   m_EdgeRadius: 0
+--- !u!1 &1394830431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394830432}
+  m_Layer: 0
+  m_Name: GameObject (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394830432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394830431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.42, y: 2.93, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1448540207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1387,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1622748668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1622748669}
+  m_Layer: 0
+  m_Name: GameObject (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1622748669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622748668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.01, y: 3.77, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1649422549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,46 +1527,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myEvents:
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0428\u0435\u0440\u0435\u0440"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0428\u0435\u0440\u0435\u0440"
+    time: 0
+    merge: 
+    recolor: {r: 1, g: 0, b: 0.8484359, a: 0}
+    newSpeed: 1
+    move: {x: -6.26, y: 3.18, z: -10.071853}
+    resize: 10
   - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041F\u044C\u0435\u0440"
     caption: 
     type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
     target: "\u041F\u044C\u0435\u0440"
-    time: 0
+    time: 500
     merge: 
-    recolor: {r: 1, g: 0.95554936, b: 0, a: 0}
-    newSpeed: 2
-    move: {x: 0.41501024, y: -0.031459615, z: -13.985662}
-    resize: 33
-  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    caption: 
-    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
-    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    time: 0
-    merge: 
-    recolor: {r: 0.48137042, g: 0.16456035, b: 0.8113208, a: 0}
-    newSpeed: 1.7
-    move: {x: -6.35, y: 2.84, z: -13.985662}
+    recolor: {r: 1, g: 0.6335255, b: 0, a: 0}
+    newSpeed: 5
+    move: {x: -6.48, y: -0.74, z: -13.985662}
     resize: 20
   - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u042D\u043B\u0435\u043D"
     caption: 
     type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
     target: "\u042D\u043B\u0435\u043D"
-    time: 0
+    time: 800
     merge: 
-    recolor: {r: 0, g: 0.20328617, b: 0.9811321, a: 0}
-    newSpeed: 1.1
-    move: {x: 5.97, y: 3.64, z: -13.985662}
-    resize: 40
-  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    caption: 
-    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
-    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    time: 500
-    merge: 
-    recolor: {r: 0, g: 0, b: 0, a: 0}
-    newSpeed: 1.1
-    move: {x: -0.01, y: 1.34, z: -13.985662}
-    resize: 3
+    recolor: {r: 1, g: 0.01457455, b: 0, a: 0}
+    newSpeed: 2
+    move: {x: -7.6, y: 1.7, z: -13.985662}
+    resize: 7
   - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
     caption: 
     type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
@@ -1424,27 +1564,16 @@ MonoBehaviour:
     time: 1000
     merge: 
     recolor: {r: 0, g: 0, b: 0, a: 0}
-    newSpeed: 1.1
-    move: {x: -0.01, y: 1.34, z: -13.985662}
-    resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041F\u044C\u0435\u0440"
-    caption: "\u0414\u0443\u044D\u043B\u044C \u041F\u044C\u0435\u0440\u0430 \u0438
-      \u0414\u043E\u043B\u043E\u0445\u043E\u0432\u0430"
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u041F\u044C\u0435\u0440"
-    time: 3000
-    merge: 
-    recolor: {r: 0.7406852, g: 0.56005484, b: 0.4056604, a: 1}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
-    resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    newSpeed: 5
+    move: {x: -6.26, y: 3.18, z: -10.071853}
+    resize: 0
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0428\u0435\u0440\u0435\u0440"
     caption: 
     type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    time: 3000
+    target: "\u0428\u0435\u0440\u0435\u0440"
+    time: 3800
     merge: 
-    recolor: {r: 0.7406852, g: 0.56005484, b: 0.4056604, a: 1}
+    recolor: {r: 1, g: 0.31676275, b: 0.42421794, a: 1}
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
@@ -1452,93 +1581,155 @@ MonoBehaviour:
     caption: 
     type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
     target: "\u041F\u044C\u0435\u0440"
-    time: 4500
+    time: 3800
     merge: 
-    recolor: {r: 1, g: 0.95554936, b: 0, a: 0}
+    recolor: {r: 1, g: 0.31676275, b: 0.42421794, a: 1}
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0410\u043D\u0434\u0440\u0435\u0439"
     caption: 
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
-    time: 4500
-    merge: 
-    recolor: {r: 0.48137042, g: 0.16456035, b: 0.8113208, a: 0}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
-    resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0440\u0430\u0437\u043C\u0435\u0440|\u041F\u044C\u0435\u0440"
-    caption: 
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0440\u0430\u0437\u043C\u0435\u0440"
-    target: "\u041F\u044C\u0435\u0440"
-    time: 4500
-    merge: 
-    recolor: {r: 0, g: 0, b: 0, a: 0}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
-    resize: 10
-  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
-    caption: 
-    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
-    target: "\u041F\u044C\u0435\u0440"
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
     time: 5000
     merge: 
+    recolor: {r: 0, g: 0.025369644, b: 1, a: 0}
+    newSpeed: 10
+    move: {x: -2.53, y: 2.76, z: -13.985662}
+    resize: 20
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 5500
+    merge: 
     recolor: {r: 0, g: 0, b: 0, a: 0}
     newSpeed: 1.1
-    move: {x: 5.97, y: 3.64, z: -13.985662}
-    resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041F\u044C\u0435\u0440"
-    caption: "\u0421\u0441\u043E\u0440\u0430 \u041F\u044C\u0435\u0440\u0430 \u0441
-      \u042D\u043B\u0435\u043D"
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u041F\u044C\u0435\u0440"
-    time: 6500
-    merge: 
-    recolor: {r: 0.5, g: 0.57941777, b: 0.49056605, a: 1}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
-    resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u042D\u043B\u0435\u043D"
-    caption: 
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u042D\u043B\u0435\u043D"
-    time: 6500
-    merge: 
-    recolor: {r: 0.5, g: 0.57941777, b: 0.49056605, a: 1}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
+    move: {x: -6.26, y: 3.18, z: -10.071853}
     resize: 3
   - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041F\u044C\u0435\u0440"
     caption: 
     type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
     target: "\u041F\u044C\u0435\u0440"
-    time: 10500
+    time: 6600
     merge: 
-    recolor: {r: 1, g: 0.95554936, b: 0, a: 0}
+    recolor: {r: 0.5, g: 0.1710662, b: 0.71210897, a: 1}
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u042D\u043B\u0435\u043D"
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
     caption: 
     type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u042D\u043B\u0435\u043D"
-    time: 10500
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 6600
     merge: 
-    recolor: {r: 0, g: 0.20328617, b: 0.9811321, a: 0}
+    recolor: {r: 0.5, g: 0.1710662, b: 0.71210897, a: 1}
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 7000
+    merge: 
+    recolor: {r: 0, g: 0.025369644, b: 1, a: 0}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 7000
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 2.01, y: 3.77, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
+      \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    time: 7500
+    merge: 
+    recolor: {r: 0, g: 0.98984337, b: 1, a: 0}
+    newSpeed: 1.1
+    move: {x: 4.39, y: 3.84, z: -13.985662}
+    resize: 6
   - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
-    caption: "\u041F\u044C\u0435\u0440 \u0443\u0435\u0437\u0436\u0430\u0435\u0442
-      \u0432 \u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"
+    caption: 
     type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
     target: "\u041F\u044C\u0435\u0440"
-    time: 10800
+    time: 7600
     merge: 
     recolor: {r: 0, g: 0, b: 0, a: 0}
     newSpeed: 1.1
-    move: {x: 7.25, y: -4.65, z: -13.985662}
+    move: {x: 2.01, y: 3.77, z: -13.985662}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
+      \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    time: 7600
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 2.01, y: 3.77, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 8500
+    merge: 
+    recolor: {r: 0, g: 0.5076065, b: 1, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
+      \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    time: 8500
+    merge: 
+    recolor: {r: 0, g: 0.5076065, b: 1, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
+      \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    time: 9200
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 4.39, y: 3.84, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 9300
+    merge: 
+    recolor: {r: 0.25, g: 0.33933634, b: 0.8560545, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041F\u044C\u0435\u0440"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041F\u044C\u0435\u0440"
+    time: 9300
+    merge: 
+    recolor: {r: 0.25, g: 0.33933634, b: 0.8560545, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
     resize: 3
   MetaballInstance: {fileID: 8201509591170822552, guid: 0fad9672ad59e1d4bb1c8c938ca015bd,
     type: 3}
@@ -1565,11 +1756,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660753065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.4803705, y: 0.6740445, z: -10.012533}
+  m_LocalPosition: {x: -2.0455384, y: -2.1282601, z: -10.012533}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1762626371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762626372}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762626372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762626371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.6, y: 1.7, z: -13.985662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1839293521
 GameObject:
