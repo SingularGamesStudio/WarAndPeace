@@ -112,4 +112,12 @@ public class Events : MonoBehaviour
 		}
 		players.Clear();
 	}
+
+    public void OnGUI()
+    {
+        foreach (MetaballBlock i in players) {
+			Vector2 pos = Camera.main.WorldToScreenPoint(i.pos);
+            GUI.Label(new Rect(pos.x, Screen.height - pos.y, 100, 100), i.myName);
+		}
+    }
 }
