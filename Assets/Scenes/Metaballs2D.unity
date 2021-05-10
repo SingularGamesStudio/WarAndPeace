@@ -555,7 +555,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819507409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: 1.85, z: -13.985662}
+  m_LocalPosition: {x: 7.41, y: -2.88, z: -13.985662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -681,7 +681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982215045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.39, y: 3.84, z: -13.985662}
+  m_LocalPosition: {x: -0.8, y: -1.59, z: -13.985662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1196,7 +1196,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394830431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 2.93, z: -13.985662}
+  m_LocalPosition: {x: 0.44, y: -0.8, z: -13.985662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1627,16 +1627,6 @@ MonoBehaviour:
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
-  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
-    caption: 
-    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
-    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
-    time: 7000
-    merge: 
-    recolor: {r: 0, g: 0.025369644, b: 1, a: 0}
-    newSpeed: 1.1
-    move: {x: 0, y: 0, z: 0}
-    resize: 3
   - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0410\u043D\u0434\u0440\u0435\u0439"
     caption: 
     type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
@@ -1646,6 +1636,16 @@ MonoBehaviour:
     recolor: {r: 0, g: 0, b: 0, a: 0}
     newSpeed: 1.1
     move: {x: 2.01, y: 3.77, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0410\u043D\u0434\u0440\u0435\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0410\u043D\u0434\u0440\u0435\u0439"
+    time: 7000
+    merge: 
+    recolor: {r: 0, g: 0.025369644, b: 1, a: 0}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
     resize: 3
   - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
       \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
@@ -1658,21 +1658,21 @@ MonoBehaviour:
     newSpeed: 1.1
     move: {x: 4.39, y: 3.84, z: -13.985662}
     resize: 6
-  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
-    caption: 
-    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
-    target: "\u041F\u044C\u0435\u0440"
-    time: 7600
-    merge: 
-    recolor: {r: 0, g: 0, b: 0, a: 0}
-    newSpeed: 1.1
-    move: {x: 2.01, y: 3.77, z: -13.985662}
-    resize: 3
   - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F
       \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
     caption: 
     type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
     target: "\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0430\u044F \u043A\u043D\u044F\u0433\u0438\u043D\u044F"
+    time: 7600
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.6
+    move: {x: 2.01, y: 3.77, z: -13.985662}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041F\u044C\u0435\u0440"
     time: 7600
     merge: 
     recolor: {r: 0, g: 0, b: 0, a: 0}
@@ -1728,6 +1728,278 @@ MonoBehaviour:
     time: 9300
     merge: 
     recolor: {r: 0.25, g: 0.33933634, b: 0.8560545, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    time: 9300
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 2.4
+    move: {x: -2.21, y: 3.01, z: -13.985662}
+    resize: 15
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    time: 9500
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 0.52, y: 1.2, z: -13.985662}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041F\u044C\u0435\u0440"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041F\u044C\u0435\u0440"
+    time: 9500
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 0.52, y: 1.2, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    time: 10500
+    merge: 
+    recolor: {r: 0.125, g: 0.16966817, b: 0.42802724, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041F\u044C\u0435\u0440"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041F\u044C\u0435\u0440"
+    time: 10500
+    merge: 
+    recolor: {r: 0.125, g: 0.16966817, b: 0.42802724, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    time: 11300
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: -2.21, y: 3.01, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0414\u043E\u043B\u043E\u0445\u043E\u0432"
+    time: 12000
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0413\u0440\u0430\u0444
+      \u0420\u043E\u0441\u0442\u043E\u0432"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0413\u0440\u0430\u0444 \u0420\u043E\u0441\u0442\u043E\u0432"
+    time: 13000
+    merge: 
+    recolor: {r: 0.6343875, g: 1, b: 0, a: 0}
+    newSpeed: 2
+    move: {x: 5.43, y: -0.77, z: -13.985662}
+    resize: 8
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0413\u0440\u0430\u0444
+      \u0420\u043E\u0441\u0442\u043E\u0432"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0413\u0440\u0430\u0444\u0438\u043D\u044F \u0420\u043E\u0441\u0442\u043E\u0432\u0430"
+    time: 13000
+    merge: 
+    recolor: {r: 0.24011993, g: 1, b: 0, a: 0}
+    newSpeed: 2
+    move: {x: 5.43, y: 0, z: -13.985662}
+    resize: 8
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0411\u043E\u0440\u0438\u0441"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0411\u043E\u0440\u0438\u0441"
+    time: 13500
+    merge: 
+    recolor: {r: 0.4339623, g: 0.1760413, b: 0.1760413, a: 0}
+    newSpeed: 3
+    move: {x: 8, y: -3.71, z: -13.985662}
+    resize: 10
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0414\u0440\u0443\u0431\u0435\u0446\u043A\u0430\u044F"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0414\u0440\u0443\u0431\u0435\u0446\u043A\u0430\u044F"
+    time: 13500
+    merge: 
+    recolor: {r: 0.4339623, g: 0.1760413, b: 0.1760413, a: 0}
+    newSpeed: 1.7
+    move: {x: 7.21, y: -3.71, z: -13.985662}
+    resize: 5
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041D\u0430\u0442\u0430\u0448\u0430"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u041D\u0430\u0442\u0430\u0448\u0430"
+    time: 13800
+    merge: 
+    recolor: {r: 1, g: 0, b: 0.673491, a: 0}
+    newSpeed: 2
+    move: {x: 5.9, y: -2.1, z: -13.985662}
+    resize: 15
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0416\u044E\u043B\u0438"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0416\u044E\u043B\u0438"
+    time: 14000
+    merge: 
+    recolor: {r: 0.3397728, g: 0.17568529, b: 0.4433962, a: 0}
+    newSpeed: 2.3
+    move: {x: 2.18, y: -4.14, z: -13.985662}
+    resize: 6
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041A\u0430\u0440\u0430\u0433\u0438\u043D\u0430\u0421\u0442\u0430\u0440\u0448\u0430\u044F"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u041A\u0430\u0440\u0430\u0433\u0438\u043D\u0430\u0421\u0442\u0430\u0440\u0448\u0430\u044F"
+    time: 14000
+    merge: 
+    recolor: {r: 0.18154536, g: 0.08276967, b: 0.2924528, a: 0}
+    newSpeed: 2.3
+    move: {x: 2.18, y: -4.21, z: -13.985662}
+    resize: 6
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041F\u0435\u0442\u044F"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u041F\u0435\u0442\u044F"
+    time: 15000
+    merge: 
+    recolor: {r: 1, g: 0.58232176, b: 0, a: 0}
+    newSpeed: 3
+    move: {x: 7.4, y: -2.88, z: -13.985662}
+    resize: 5
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041D\u0430\u0442\u0430\u0448\u0430"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041D\u0430\u0442\u0430\u0448\u0430"
+    time: 15000
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: -0.8, y: -1.59, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u0421\u043E\u043D\u044F"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u0421\u043E\u043D\u044F"
+    time: 15000
+    merge: 
+    recolor: {r: 1, g: 0.34509805, b: 0.8980392, a: 0}
+    newSpeed: 2
+    move: {x: 3.46, y: -1.96, z: -13.985662}
+    resize: 6
+  - ShownName: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430|\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    caption: 
+    type: "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430"
+    target: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    time: 15000
+    merge: 
+    recolor: {r: 0, g: 0.9142871, b: 1, a: 0}
+    newSpeed: 2.5
+    move: {x: 3.39, y: -2.62, z: -13.985662}
+    resize: 10
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0421\u043E\u043D\u044F"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0421\u043E\u043D\u044F"
+    time: 15500
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 0.44, y: -0.8, z: -13.985662}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    time: 15500
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: 0.44, y: -0.8, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0421\u043E\u043D\u044F"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0421\u043E\u043D\u044F"
+    time: 17500
+    merge: 
+    recolor: {r: 0.5, g: 0.62969255, b: 0.9490196, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    time: 17500
+    merge: 
+    recolor: {r: 0.5, g: 0.62969255, b: 0.9490196, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435|\u0411\u043E\u0440\u0438\u0441"
+    caption: 
+    type: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0435\u043D\u0438\u0435"
+    target: "\u0411\u043E\u0440\u0438\u0441"
+    time: 17500
+    merge: 
+    recolor: {r: 0, g: 0, b: 0, a: 0}
+    newSpeed: 1.1
+    move: {x: -0.8, y: -1.59, z: -13.985662}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041D\u0430\u0442\u0430\u0448\u0430"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041D\u0430\u0442\u0430\u0448\u0430"
+    time: 20000
+    merge: 
+    recolor: {r: 0.7169812, g: 0.08802065, b: 0.42476615, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0411\u043E\u0440\u0438\u0441"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0411\u043E\u0440\u0438\u0441"
+    time: 20000
+    merge: 
+    recolor: {r: 0.7169812, g: 0.08802065, b: 0.42476615, a: 1}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u0421\u043E\u043D\u044F"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u0421\u043E\u043D\u044F"
+    time: 21000
+    merge: 
+    recolor: {r: 1, g: 0.34509805, b: 0.8980392, a: 0}
+    newSpeed: 1.1
+    move: {x: 0, y: 0, z: 0}
+    resize: 3
+  - ShownName: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442|\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    caption: 
+    type: "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0446\u0432\u0435\u0442"
+    target: "\u041D\u0438\u043A\u043E\u043B\u0430\u0439"
+    time: 21000
+    merge: 
+    recolor: {r: 0, g: 0.9142871, b: 1, a: 0}
     newSpeed: 1.1
     move: {x: 0, y: 0, z: 0}
     resize: 3
