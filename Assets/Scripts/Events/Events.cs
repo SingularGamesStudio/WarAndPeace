@@ -23,7 +23,7 @@ public class Events : MonoBehaviour
 	bool warp = false;
 	private void Start()
 	{
-		time = 0;
+		time = 68000;
 		slider = GameObject.Find("Slider").GetComponent<Slider>();
 		text = GameObject.Find("Text").GetComponent<Text>();
 		timer = GameObject.Find("Timer").GetComponent<Text>();
@@ -116,6 +116,7 @@ public class Events : MonoBehaviour
     public void OnGUI()
     {
         foreach (MetaballBlock i in players) {
+            if(i.newsize == 0) continue;
 			Vector2 pos = Camera.main.WorldToScreenPoint(i.pos);
             GUI.Label(new Rect(pos.x, Screen.height - pos.y, 100, 100), i.myName);
 		}
