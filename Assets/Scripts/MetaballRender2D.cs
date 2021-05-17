@@ -62,6 +62,7 @@ public class MetaballRender2D : ScriptableRendererFeature
             List<Metaball2D> metaballs = MetaballSystem2D.Get();
             List<Vector4> metaballData = new List<Vector4>(metaballs.Count);
             List<Vector4> metaballColors = new List<Vector4>(metaballs.Count);
+
             for (int i = 0; i < metaballs.Count; ++i)
             {
                 Vector2 pos = renderingData.cameraData.camera.WorldToScreenPoint(metaballs[i].transform.position);
