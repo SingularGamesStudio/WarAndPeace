@@ -23,7 +23,7 @@ public class Events : MonoBehaviour
 	bool warp = false;
 	private void Start()
 	{
-		time = 68000;
+		time = 0;
 		slider = GameObject.Find("Slider").GetComponent<Slider>();
 		text = GameObject.Find("Text").GetComponent<Text>();
 		timer = GameObject.Find("Timer").GetComponent<Text>();
@@ -82,6 +82,7 @@ public class Events : MonoBehaviour
 			foreach (MetaballBlock z in players)
 				z.Resize();
 		}
+		timeChanged();
 		warp = false;
 	}
 	public void sliderChanged()
@@ -89,6 +90,16 @@ public class Events : MonoBehaviour
 		string last = "";
 		foreach (MyEvent e in all) {
 			if (e.time <= slider.value && e.caption!="") {
+				last = e.caption + " (" + e.time.ToString() + " ms)";
+			}
+		}
+		text.text = last;
+	}
+    public void timeChanged()
+	{
+		string last = "";
+		foreach (MyEvent e in all) {
+			if (e.time <= time && e.caption != "") {
 				last = e.caption + " (" + e.time.ToString() + " ms)";
 			}
 		}
