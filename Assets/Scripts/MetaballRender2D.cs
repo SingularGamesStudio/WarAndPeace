@@ -25,7 +25,7 @@ public class MetaballRender2D : ScriptableRendererFeature
 
     class MetaballRender2DPass : ScriptableRenderPass
     {
-        private Material material;
+        public Material material;
 
         public float outlineSize;
         public Color innerColor;
@@ -69,7 +69,6 @@ public class MetaballRender2D : ScriptableRendererFeature
                 metaballData.Add(new Vector4(pos.x, pos.y, radius, 0.0f));
                 metaballColors.Add(metaballs[i].color);
             }
-
             if(metaballData.Count > 0)
             {
                 cmd.SetGlobalInt("_MetaballCount", metaballs.Count);
@@ -79,7 +78,7 @@ public class MetaballRender2D : ScriptableRendererFeature
                 cmd.SetGlobalColor("_InnerColor", innerColor);
                 cmd.SetGlobalColor("_OutlineColor", outlineColor);
                 cmd.SetGlobalFloat("_CameraSize", renderingData.cameraData.camera.orthographicSize);
-
+                
                 cmd.Blit(source, source, material);
 
                 context.ExecuteCommandBuffer(cmd);
@@ -107,7 +106,9 @@ public class MetaballRender2D : ScriptableRendererFeature
 
     public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)
     {
+        
         pass.Setup(renderer.cameraColorTarget);
         renderer.EnqueuePass(pass);
+
     }
 }

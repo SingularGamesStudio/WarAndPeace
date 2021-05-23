@@ -49,4 +49,9 @@ MonoBehaviour:
   speed: 1
   colorSpeed: 3
   color: {r: 0, g: 0, b: 0, a: 0}
+  newsize: 0
   newColor: {r: 0, g: 0, b: 0, a: 0}
+  caption: {fileID: 0}
+  caption_base: {fileID: 544843348814782459, guid: 51ce0e50d27695b42bcc22621a70d8ee,
+    type: 3}
+  canv: {fileID: 0}

@@ -19,21 +19,26 @@ public class Events : MonoBehaviour
 	int now = 0;
 	Slider slider;
 	Text timer;
-	Text text;
+	bool warping = false;
 	bool warp = false;
 	private void Start()
 	{
+		warping = false;
 		time = 0;
 		slider = GameObject.Find("Slider").GetComponent<Slider>();
-		text = GameObject.Find("Text").GetComponent<Text>();
 		timer = GameObject.Find("Timer").GetComponent<Text>();
 		all = EventsListHolder._e.myEvents;
 		all.Sort(Comparison);
 		slider.maxValue = all[all.Count - 1].time+5000;
 	}
+	bool changedbythis = false;
 	private void Update()
 	{
 		time += (int)(Time.deltaTime * 1000);
+		changedbythis = true;
+		if(!warping)
+			slider.value = time;
+		changedbythis = false;
 		timer.text = time.ToString() + " ms";
 		while (now < all.Count && all[now].time <= time) {
 			if(all[now].type== "Добавить персонажа") {
@@ -84,18 +89,24 @@ public class Events : MonoBehaviour
 		}
 		warp = false;
 	}
+	string last = "";
 	public void sliderChanged()
 	{
-		string last = "";
+		if (!changedbythis) {
+			warping = true;
+			
+		}
+		last = "";
 		foreach (MyEvent e in all) {
-			if (e.time <= slider.value && e.caption!="") {
-				last = e.caption + " (" + e.time.ToString() + " ms)";
+			if (e.time <= slider.value && e.caption != "") {
+				last = "Последнее событие: " + e.caption + " (" + e.time.ToString() + " ms)";
 			}
 		}
-		text.text = last;
+		UIController._ui.TextChange(last);
 	}
 	public void TimeTravel()
 	{
+		warping = false;
 		time = 0;
 		foreach (MyEvent e in all) {
 			if (e.time <= slider.value && e.caption != "") {
@@ -110,6 +121,7 @@ public class Events : MonoBehaviour
 			}
 			Destroy(z.gameObject);
 		}
+		UIController._ui.TextRelease(last);
 		players.Clear();
 	}
 }
