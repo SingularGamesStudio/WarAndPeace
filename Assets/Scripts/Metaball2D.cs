@@ -21,8 +21,6 @@ public class Metaball2D : MonoBehaviour
         return collider.radius;
     }
 
-
-
     private void OnDestroy()
     {
         MetaballSystem2D.Remove(this);

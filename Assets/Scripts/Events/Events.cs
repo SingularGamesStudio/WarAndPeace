@@ -82,6 +82,7 @@ public class Events : MonoBehaviour
 			foreach (MetaballBlock z in players)
 				z.Resize();
 		}
+		timeChanged();
 		warp = false;
 	}
 	public void sliderChanged()
@@ -89,6 +90,16 @@ public class Events : MonoBehaviour
 		string last = "";
 		foreach (MyEvent e in all) {
 			if (e.time <= slider.value && e.caption!="") {
+				last = e.caption + " (" + e.time.ToString() + " ms)";
+			}
+		}
+		text.text = last;
+	}
+    public void timeChanged()
+	{
+		string last = "";
+		foreach (MyEvent e in all) {
+			if (e.time <= time && e.caption != "") {
 				last = e.caption + " (" + e.time.ToString() + " ms)";
 			}
 		}
@@ -112,4 +123,13 @@ public class Events : MonoBehaviour
 		}
 		players.Clear();
 	}
+
+    public void OnGUI()
+    {
+        foreach (MetaballBlock i in players) {
+            if(i.newsize == 0) continue;
+			Vector2 pos = Camera.main.WorldToScreenPoint(i.pos);
+            GUI.Label(new Rect(pos.x, Screen.height - pos.y, 100, 100), i.myName);
+		}
+    }
 }
