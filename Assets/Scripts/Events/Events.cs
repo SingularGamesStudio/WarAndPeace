@@ -13,21 +13,26 @@ public class Events : MonoBehaviour
 			return -1;
 		return 1;
 	}
-	List<MetaballBlock> players = new List<MetaballBlock>();
+	public static List<MetaballBlock> players = new List<MetaballBlock>();
 	public int time;
-	List<MyEvent> all;
+	public List<MyEvent> all;
 	int now = 0;
 	Slider slider;
 	Text timer;
 	bool warping = false;
 	bool warp = false;
-	private void Start()
+	public List<GameObject> tomes = new List<GameObject>();
+	private void Awake()
 	{
+		players.Clear();
+		int num = PlayerPrefs.GetInt("tome");
+		EventsListHolder._e.myEvents = EventsListHolder._e.tomes[num].GetComponent<EventsListHolder>().myEvents;
+		all = EventsListHolder._e.tomes[num].GetComponent<EventsListHolder>().myEvents;
+		Time.timeScale = 1;
 		warping = false;
 		time = 0;
 		slider = GameObject.Find("Slider").GetComponent<Slider>();
 		timer = GameObject.Find("Timer").GetComponent<Text>();
-		all = EventsListHolder._e.myEvents;
 		all.Sort(Comparison);
 		slider.maxValue = all[all.Count - 1].time+5000;
 	}
@@ -51,6 +56,7 @@ public class Events : MonoBehaviour
 				b.newColor = b.color;
 				b.speed = all[now].newSpeed;
 				b.newsize = all[now].resize;
+				b.init();
 				players.Add(b);
 			} else if(all[now].type== "Перемещение") {
 				foreach(MetaballBlock b in players) {
@@ -90,6 +96,42 @@ public class Events : MonoBehaviour
 		warp = false;
 	}
 	string last = "";
+	MyEvent curEvent = null;
+	public void prevEvent()
+	{
+		if (curEvent != null) {
+			MyEvent l1 = null;
+			foreach (MyEvent e in all) {
+				if (e == curEvent)
+					break;
+				if (e.caption != "") {
+					l1 = e;
+				}
+			}
+			if (l1 != null) {
+				curEvent = l1;
+				UIController._ui.ChangeGlobalCaption(l1.caption);
+			}
+		}
+	}
+	public void nextEvent()
+	{
+		if (curEvent != null) {
+			MyEvent l1 = null;
+			for(int i = all.Count - 1; i>= 0; i--) {
+				MyEvent e = all[i];
+				if (e == curEvent)
+					break;
+				if (e.caption != "") {
+					l1 = e;
+				}
+			}
+			if (l1 != null) {
+				curEvent = l1;
+				UIController._ui.ChangeGlobalCaption(l1.caption);
+			}
+		}
+	}
 	public void sliderChanged()
 	{
 		if (!changedbythis) {
@@ -100,28 +142,34 @@ public class Events : MonoBehaviour
 		foreach (MyEvent e in all) {
 			if (e.time <= slider.value && e.caption != "") {
 				last = "Последнее событие: " + e.caption + " (" + e.time.ToString() + " ms)";
+				UIController._ui.ChangeGlobalCaption(e.caption);
+				curEvent = e;
 			}
 		}
 		UIController._ui.TextChange(last);
 	}
 	public void TimeTravel()
 	{
-		warping = false;
-		time = 0;
-		foreach (MyEvent e in all) {
-			if (e.time <= slider.value && e.caption != "") {
-				time = e.time-500;
+		if (!UIController.paused) {
+			warping = false;
+			time = 0;
+			foreach (MyEvent e in all) {
+				if (e.time <= slider.value && e.caption != "") {
+					time = e.time - 500;
+				}
 			}
-		}
-		warp = true;
-		now = 0;
-		foreach(MetaballBlock z in players) {
-			foreach(Metaball2D z1 in z.all) {
-				Destroy(z1.gameObject);
+			warp = true;
+			now = 0;
+			foreach (MetaballBlock z in players) {
+				foreach (Metaball2D z1 in z.all) {
+					Destroy(z1.gameObject);
+				}
+				if (z.caption != null)
+					Destroy(z.caption.gameObject);
+				Destroy(z.gameObject);
 			}
-			Destroy(z.gameObject);
+			UIController._ui.TextRelease(last);
+			players.Clear();
 		}
-		UIController._ui.TextRelease(last);
-		players.Clear();
 	}
 }

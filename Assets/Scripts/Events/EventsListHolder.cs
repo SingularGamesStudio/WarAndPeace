@@ -5,6 +5,7 @@ using UnityEngine;
 public class EventsListHolder : MonoBehaviour
 {
 	public List<MyEvent> myEvents;
+	public List<GameObject> tomes = new List<GameObject>();
 	public static EventsListHolder _e = null;
 	public GameObject MetaballInstance;
 	public GameObject EmptyBlock;
